@@ -15,15 +15,22 @@
       <form action="" id="survey-form">
         <div>
           <label id="name-label" for="name" >name</label>
-          <input type="text" id="name">
+          <input type="text" id="name" placeholder="name">
         </div>
         <div>
           <label id="email-label" for="email" >email</label>
-          <input type="email" id="email" required>
+          <input type="email" id="email" placeholder="email" required>
         </div>
         <div>
           <label id="number-label" for="number" >number</label>
-          <input type="number" id="number" min="10" max="20" required>
+          <input type="number" id="number" min="10" max="20" placeholder="number" required>
+        </div>
+        <div>
+          <select name="dropdown" id="dropdown">
+            <option value="">1</option>
+            <option value="">2</option>
+            <option value="">3</option>
+          </select>
         </div>
       </form>
     </div>
